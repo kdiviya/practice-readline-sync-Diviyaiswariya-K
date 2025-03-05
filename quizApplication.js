@@ -1,0 +1,13 @@
+const readline = require('readline-sync');
+let userName = readline.question("Enter Your Name: ");
+console.log("Hello, " + userName + "!");
+let questionOne = readline.question("What are the 2 types of datatypes? ");
+console.log("Your answer is " + questionOne);
+let questionTwo = readline.question("What naming convention approach should Javascipt follow? ");
+console.log("Your answer is " + questionTwo);
+let questionThree = readline.questionInt("How many types of type conversion in Javascipt? ");
+console.log("Your answer is " + questionThree);
+let questionFour = readline.question("what are the 2 methods to convert the data into string in Javascipt? ");
+console.log("Your answer is " + questionFour);
+let questionFive = readline.questionInt("How many falsy values used in Boolean() Javascipt? ");
+console.log("Your answer is " + questionFive);
